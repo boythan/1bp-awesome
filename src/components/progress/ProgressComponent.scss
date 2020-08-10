@@ -1,0 +1,21 @@
+.dialogProgressLoadingContainer {
+  border-radius: 1rem;
+  height: 10rem;
+  width: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.errorProgressContainer {
+  .errorTitleText {
+    font-weight: bold !important;
+  }
+
+  .errorContentText {
+    min-width: 40vw !important;
+  }
+}
+.dialogActionsProgress {
+  padding: 1rem;
+}

@@ -1,0 +1,25 @@
+.tabLabelSelect {
+    color: #0F9CF1 !important;
+    font-weight: 500 !important;
+}
+
+.tabLabeDelselect {
+    color: #333333 !important;
+    font-weight: 500 !important;
+}
+
+.PrivateTabIndicator-colorPrimary-2 {
+    background-color: #0F9CF1 !important;
+    height: 0.3rem !important;
+}
+
+.tabViewContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.tabViewSceneContainer {
+    height: 100%;
+    width: 100%;
+    padding: 2rem;
+}

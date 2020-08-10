@@ -1,0 +1,21 @@
+.itemListBaseContainer {
+    display: flex;
+    width: 100%;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 0.8rem;
+}
+
+.itemListBaseContainer:hover {
+    cursor: pointer;
+}
+
+.itemListBaseContainer .ava {
+    height: 2.4rem;
+    width: 2.4rem;
+}
+
+.itemListBaseContainer .content {
+    margin-left: 1.2rem;
+    color: #323C47
+}

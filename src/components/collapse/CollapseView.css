@@ -1,0 +1,43 @@
+.collapseViewContainer {
+    border-radius: 0.8rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.collapseViewContainer:hover {
+    cursor: pointer;
+}
+
+.collapseViewHeaderContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerTitleContainer {
+    display: flex;
+    align-items: center;
+}
+
+.headerTitleContainer .ava {
+    height: 2.4rem;
+    width: 2.4rem;
+}
+
+.headerTitleContainer .titleText {
+    margin-left: 1.2rem;
+}
+
+.headerTitleContainer .arrowDownIcon {
+    font-size: 1.8rem;
+    color: #BDBDBD;
+    color: red
+}
+
+.mainContentContainer {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    margin-top: 1rem;
+}

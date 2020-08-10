@@ -1,0 +1,17 @@
+.dialogComponentContainer {
+    padding: 1rem;
+}
+
+.contentDialog {
+    margin-top: 1rem;
+}
+
+.buttonActionDialog {
+    color: #2196F3;
+}
+
+@media print {
+    #diaglogMainContainer {
+        display: none;
+    }
+}

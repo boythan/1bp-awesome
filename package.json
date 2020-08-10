@@ -1,6 +1,6 @@
 {
   "name": "1bp-awesome",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "My component",
   "author": "boythan",
   "license": "MIT",
@@ -21,10 +21,22 @@
     "test:unit": "cross-env CI=1 react-scripts test --env=jsdom",
     "test:watch": "react-scripts test --env=jsdom",
     "predeploy": "cd example && npm install && npm run build",
-    "deploy": "gh-pages -d example/build"
+    "deploy": "gh-pages -d example/build",
+    "npm:deploy": "npm run deploy",
+    "npm:publish": "npm publish"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^16.13.1",
+    "moment": "2.24.0",
+    "node-sass": "^4.14.1",
+    "lodash": "4.17.15",
+    "react-datepicker": "2.14.1",
+    "@material-ui/icons": "4.9.1",
+    "@material-ui/core": "^4.9.10",
+    "react-highlight-words": "^0.16.0",
+    "xlsx": "0.16.2",
+    "file-saver": "2.0.2",
+    "antd": "^3.21.4"
   },
   "devDependencies": {
     "microbundle-crl": "^0.13.10",
@@ -45,7 +57,28 @@
     "prettier": "^2.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "^3.4.1"
+    "react-scripts": "^3.4.1",
+    "lodash": "4.17.15",
+    "react-datepicker": "2.14.1",
+    "@material-ui/icons": "4.9.1",
+    "@material-ui/core": "^4.9.10",
+    "react-highlight-words": "^0.16.0",
+    "xlsx": "0.16.2",
+    "file-saver": "2.0.2",
+    "antd": "^3.21.4"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "moment": "2.24.0",
+    "node-sass": "^4.14.1",
+    "lodash": "4.17.15",
+    "react-datepicker": "2.14.1",
+    "@material-ui/icons": "4.9.1",
+    "@material-ui/core": "^4.9.10",
+    "react-highlight-words": "^0.16.0",
+    "xlsx": "0.16.2",
+    "file-saver": "2.0.2",
+    "antd": "^3.21.4"
   },
   "files": [
     "dist"

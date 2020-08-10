@@ -1,0 +1,33 @@
+.listSearchContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%
+}
+
+.headerListSearchContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 4rem;
+}
+
+.headerListSearchContainer .buttonAdd {
+    height: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.headerListSearchContainer .inputSearch {
+    /* border: 1px solid #C2CFE0 !important; */
+    /* border-radius: 0.4rem; */
+    /* padding: 1.1rem; */
+    flex: 1;
+    margin-right: 2rem;
+    height: 4rem !important
+}
+
+.contentListSearchContainer {
+    overflow-y: scroll;
+    margin-top: 1rem;
+}

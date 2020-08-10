@@ -1,0 +1,24 @@
+.searchInputContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 0.5rem;
+    border: 1px solid #C2CFE0;
+    padding: 1.3rem
+}
+
+.searchInput {
+    flex: 1;
+    border: 0px solid #000 !important;
+}
+
+.searchInput:focus {
+    border: 0px solid #000 !important;
+    outline: none!important;
+}
+
+.searchIcon {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: #C2CFE0
+}
