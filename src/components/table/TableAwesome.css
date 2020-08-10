@@ -1,0 +1,85 @@
+.rowAwesomeTable {}
+
+/*.rowAwesomeTable:hover td {*/
+
+/*    background-color: black;*/
+
+/*    color: white*/
+
+/*}*/
+
+.rowAwesomeTable td {
+    font-family: var(--appFont);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.tableAwesome thead>tr>th {
+    font-family: var(--appFont);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.56);
+    background-color: rgb(194, 207, 224, 0.1) !important;
+}
+
+.tableAwesome .ant-table-column-title {
+    font-family: var(--appFont);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #192A3E
+}
+
+.tableAwesome {
+    font-family: var(--appFont);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.containerControl {
+    flex-direction: row;
+    display: flex;
+}
+
+.tableAwesome thead>tr>th {
+    background-color: #E8E8E8
+}
+
+.ant-table-small>.ant-table-content>.ant-table-header>table>.ant-table-thead>tr>th, .ant-table-small>.ant-table-content>.ant-table-body>table>.ant-table-thead>tr>th, .ant-table-small>.ant-table-content>.ant-table-scroll>.ant-table-header>table>.ant-table-thead>tr>th, .ant-table-small>.ant-table-content>.ant-table-scroll>.ant-table-body>table>.ant-table-thead>tr>th, .ant-table-small>.ant-table-content>.ant-table-fixed-left>.ant-table-header>table>.ant-table-thead>tr>th, .ant-table-small>.ant-table-content>.ant-table-fixed-right>.ant-table-header>table>.ant-table-thead>tr>th, .ant-table-small>.ant-table-content>.ant-table-fixed-left>.ant-table-body-outer>.ant-table-body-inner>table>.ant-table-thead>tr>th, .ant-table-small>.ant-table-content>.ant-table-fixed-right>.ant-table-body-outer>.ant-table-body-inner>table>.ant-table-thead>tr>th {
+    background-color: #E8E8E8
+}
+
+@media screen and (max-width:1000px) {
+    .tableAwesomeComponent table, .tableAwesomeComponent tbody, .tableAwesomeComponent thead, .tableAwesomeComponent tr, .tableAwesomeComponent th, .tableAwesomeComponent td {
+        display: block;
+    }
+    .tableAwesomeComponent thead>tr {
+        position: absolute;
+        top: -9999999px;
+        left: -9999999px;
+    }
+    .tableAwesomeComponent tr {
+        width: 100%;
+        border: 1px solid rgb(220, 220, 220);
+    }
+    .tableAwesomeComponent .ant-table-tbody>tr>td {
+        position: relative;
+        padding-left: 50%;
+        width: 100%;
+    }
+    .tableAwesomeComponent .ant-table-tbody>tr>td::before {
+        content: attr(data-title);
+        white-space: nowrap;
+        font-size: 1.5rem;
+        font-family: var(--appFont);
+        font-weight: bold;
+        text-align: left;
+        position: absolute;
+        left: 0.5rem;
+    }
+}
